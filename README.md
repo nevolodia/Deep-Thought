@@ -4,9 +4,10 @@ This is the official documentation and implementation(s) of Deep Thought — lan
 
 ## Project structure.
 
-| Path        | Description                  |
-|-------------|------------------------------|
-| `README.md` | The main documentation file. |
+| Path                          | Description                                             |
+|-------------------------------|---------------------------------------------------------|
+| `README.md`                   | The main documentation file.                            |
+| `interpreter/deep_thought.py` | The Python implementation of the Deep Thought language. |
 
 ## Deep Thought commands.
 
@@ -32,7 +33,6 @@ The rest of the commands are the binary representation of the dividers ща 42б
 | Path                          | Description                                                   |
 |-------------------------------|---------------------------------------------------------------|
 | `tests/test_deep_thought.py`  | The tests for the Deep Thought implementation.                |
-| `interpreter/deep_thought.py` | The Python implementation of the Deep Thought language.       |
 | `interpreter/deep_thought.s`  | The x86 assembly implementation of the Deep Thought language. |
 | `compiler/deep_thought_jit.s` | The x86 assembly JIT compiler for the Deep Thought language.  |
 | `documentation/main.tex`      | The LaTeX documentation of the Deep Thought language.         |
