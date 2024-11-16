@@ -12,16 +12,15 @@ This is the official documentation and implementation(s) of Deep Thought — lan
 
 Deep Thought supports eight commands:
 
-| Command  | Description                                                                            |
-|----------|----------------------------------------------------------------------------------------|
-| `101010` | Increments the value of the current cell.                                              |
-| `010101` | Decrements the value of the current cell.                                              |
-| `100`    | Moves the pointer to the right.                                                        |
-| `111`    | Moves the pointer to the left.                                                         |
-| `000`    | Outputs the ASCII value of the current cell.                                           |
-| `001`    | Inputs a value and stores it in the current cell.                                      |
-| `\n`     | Jumps to the next corresponding `\n\n` if the value of the current cell is zero.       |
-| `\n\n`   | Jumps to the previous corresponding `\n` if the value of the current cell is non-zero. |
+| Command  | Description                                                                         |
+|----------|-------------------------------------------------------------------------------------|
+| `101010` | Increments the value of the current cell.                                           |
+| `010101` | Decrements the value of the current cell.                                           |
+| `000`    | Moves the pointer to the right.                                                     |
+| `001`    | Moves the pointer to the left.                                                      |
+| `000`    | Jumps to the next corresponding `111` if the value of the current cell is zero.     |
+| `111`    | Jumps to previous corresponding `000` if the value of the current cell is non-zero. |
+| `\n`     | Outputs the ASCII value of the current cell.                                        |
 
 Each command is unambiguous and does represent one of the features of the Answer to the Ultimate Question of Life, the Universe, and Everything.
 
