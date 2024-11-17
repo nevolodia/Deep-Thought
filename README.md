@@ -21,8 +21,8 @@ Deep Thought supports seven commands:
 | `010101` | Decrements the value of the current cell.                                           |
 | `000`    | Moves the pointer to the right.                                                     |
 | `001`    | Moves the pointer to the left.                                                      |
-| `000`    | Jumps to the next corresponding `111` if the value of the current cell is zero.     |
-| `111`    | Jumps to previous corresponding `000` if the value of the current cell is non-zero. |
+| `100`    | Jumps to the next corresponding `111` if the value of the current cell is zero.     |
+| `111`    | Jumps to previous corresponding `100` if the value of the current cell is non-zero. |
 | `\n`     | Outputs the ASCII value of the current cell.                                        |
 
 Each command is unambiguous and does represent one of the features of the Answer to the Ultimate Question of Life, the Universe, and Everything.
