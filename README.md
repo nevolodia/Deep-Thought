@@ -26,7 +26,7 @@ Deep Thought supports eight commands:
 Each command is unambiguous and does represent one of the features of the Answer to the Ultimate Question of Life, the Universe, and Everything.
 
 That is because binary representation of the number `42` is `101010`, and inverse is `010101`.
-The rest of the commands are the binary representation of the dividers ща 42б that is `0`, `1`, `4`, `7`.
+The rest of the commands are the binary representation of the dividers of 42, that is `0`, `1`, `4`, `7`.
 
 ## To do.
 
