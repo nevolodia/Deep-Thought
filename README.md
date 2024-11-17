@@ -9,9 +9,11 @@ This is the official documentation and implementation(s) of Deep Thought — lan
 | `README.md`                   | The main documentation file.                            |
 | `interpreter/deep_thought.py` | The Python implementation of the Deep Thought language. |
 
-## Deep Thought commands.
+## Deep Thought specefication.
 
-Deep Thought supports eight commands:
+Before the launch of the program, an array of 42,000 one-byte cells in initialized and pointer is set to a 42nd position.
+
+Deep Thought supports seven commands:
 
 | Command  | Description                                                                         |
 |----------|-------------------------------------------------------------------------------------|
@@ -25,8 +27,8 @@ Deep Thought supports eight commands:
 
 Each command is unambiguous and does represent one of the features of the Answer to the Ultimate Question of Life, the Universe, and Everything.
 
-That is because binary representation of the number `42` is `101010`, and inverse is `010101`.
-The rest of the commands are the binary representation of the dividers of 42, that is `0`, `1`, `4`, `7`.
+That is because binary representation of the number `42` is `101010`, and its inverse is `010101`.
+The rest of the commands are the binary representation of the dividers of 42, that is `0`, `1`, `4`, `7` (if your program can't evenly divide 42 by 4, your program is porbably is not written in Deep Thought).
 
 ## To do.
 
